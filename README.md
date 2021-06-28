@@ -1,2 +1,3 @@
 # Gruvbox-LS
-Tallguyjenks' Gruvbox theme edited by @DenaroCF
+[Bryan Jenks'](https://twitter.com/tallguyjenks) Gruvbox theme edited by me [(Denaro)](https://twitter.com/DenaroCascio)
+
