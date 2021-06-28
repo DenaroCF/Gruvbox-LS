@@ -1,0 +1,17 @@
+{
+    "name": "Gruvbox",
+    "author": "Tallguyjenks & Denaro",
+    "version": "0.0.1",
+    "description": "A gruvbox theme for Logseq",
+    "logseq": {
+      "themes": [
+        {
+          "name": "Gruvbox",
+          "url": "./gruvbox.css",
+          "description": "A gruvbox theme for Logseq"
+        }
+      ],
+      "id": "tgj_denaro-gruvbox",
+      "icon": "./gruvbox.jpg"
+    }
+  }
