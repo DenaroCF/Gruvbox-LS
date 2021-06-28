@@ -14,5 +14,5 @@
 - Clone the repo
 - Open the _plugin_ option in Logseq Desktop Client
 - Select **Load unpacked plugin** in Logseq Desktop client
-- Open the folder of the repo.
+- Open the _Gruvbox-plugin_ folder of the repo.
 - Choose the theme
