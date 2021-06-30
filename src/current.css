@@ -234,7 +234,7 @@
     letter-spacing: var(--ls-font-letter-spacing);
     line-height: var(--ls-font-line-height);
     font-size: var(--ls-page-text-size);
-    background-color: #282a36;
+    background-color: var(--darker-background) !important;
   }
   
   i {
@@ -365,7 +365,12 @@
   .Tooltip__label ul {
       margin-left: 0;
   }
-  
+
+  .page-reference .bracket {
+    color: var(--ls-border-color);
+    opacity: 0.8;
+  }
+
   /*
       Name:       Dracula for CodeMirror
       Author:     Michael Kaminsky (http://github.com/mkaminsky11)
@@ -375,14 +380,14 @@
   */
   
   .CodeMirror {
-    font-family: "FiraCode Nerd Font", "Fire Code", monospace;
+    font-family: "Fira Code", "Nerd Font", monospace;
     line-height: 1.2;
-    background: var(--background);
+    background: var(--darker-background) !important;
   }
   
   .cm-s-default.CodeMirror,
   .cm-s-default .CodeMirror-gutters {
-    background-color: transparent;
+    background-color: transparent ;
     color: var(--white) !important;
     border: none;
   }
@@ -415,12 +420,12 @@
   .cm-s-default .CodeMirror-line::selection,
   .cm-s-default .CodeMirror-line > span::selection,
   .cm-s-default .CodeMirror-line > span > span::selection {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1) !important;
   }
   .cm-s-default .CodeMirror-line::-moz-selection,
   .cm-s-default .CodeMirror-line > span::-moz-selection,
   .cm-s-default .CodeMirror-line > span > span::-moz-selection {
-    background: rgba(255, 255, 255, 0.1);
+     background: rgba(255, 255, 255, 0.1) !important;
   }
   .cm-s-default span.cm-comment {
     color: var(--comment);
@@ -483,4 +488,22 @@
   
   #right-sidebar pre.CodeMirror-line {
     background: transparent;
+  }
+  .cm-s-solarized.cm-s-dark {
+    color: var(--foreground);
+      background-color: var(--dark-background) !important;
+      text-shadow: var(--background) 0 1px;
+  }
+  .cm-s-solarized.cm-s-dark.CodeMirror ::selection {
+      background: rgba(255, 255, 255, 0.1) !important;
+  }
+  .cm-s-solarized.cm-s-dark .CodeMirror-linenumber {
+      color: var(--foreground);
+      text-shadow: var(--background) 0 -1px ;
+      background-color: var(--light-background) !important;
+  }
+  .CodeMirror-gutter, .CodeMirror-gutters {
+      color: var(--foreground);
+      text-shadow: var(--background) 0 -1px ;
+      background-color: var(--light-background) !important;
   }
